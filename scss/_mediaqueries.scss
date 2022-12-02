@@ -1,0 +1,58 @@
+/*vista mobile index*/
+@media screen and (min-width: 320px) and (max-width: 720px) {
+    .textoIndex {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .textoIndexProd {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .btn {
+        font-size: 2rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/*vista tablet index*/
+@media screen and (min-width: 768px) and (max-width: 1260px) {
+    .mediaNav {
+        display: flex;
+        flex-direction: column
+    }
+
+    .textoIndex {
+        text-align: center;
+    }
+
+    .textoIndexProd {
+        text-align: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*vista mobile tienda*/
+@media screen and (min-width: 320px) and (max-width: 940px) {
+    .card {
+        margin: 10px;
+    }
+}
+
+/*vista tablet living comedor*/
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,17 @@
+Roselina Script is a contemporary calligraphy, with a vintage feel, style calligraphy with moving baseline and elegant touch. features 340+ glyphs and 105 alternate character, appearance initial letter and terminal letters, can be adjusted by using the glyph palette. alternately swashes, stylistic sets, ligatures and multiple language support.
+
+Files included: 
+- Roselina Script.otf 
+- Roselina Script.ttf
+- Web Fonts (eot, svg, woff)
+
+Can be used for various purposes.such as headings, signature, logos, wedding invitation, t-shirt, letterhead, signage, lable, news, posters, badges etc. 
+To enable the OpenType Stylistic alternates, you need a program that supports OpenType features such as Adobe Illustrator CS, Adobe Indesign & CorelDraw X6-X7.
+
+How to get access alternate glyphs from open type fonts: http://youtu.be/iptSFA7feQ0
+View all glyphs here: 
+http://s9.postimg.org/495sxlogf/Glyphs.jpg
+
+Need help?
+If you need help or advice, please contact me by e-mail "seniorsstudio@gmail.com"
+Thank you!

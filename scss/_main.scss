@@ -1,0 +1,99 @@
+/*main index*/
+.imagenIndex {
+    width: 99vw;
+    height: 85vh;
+    display: flex;
+    align-items: end;
+    background: url(../assets/img/ceramica.jpg);
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.textoIndex {
+    margin-bottom: 30px;
+    font-size: 4rem;
+}
+
+.textoIndexProd {
+    font-size: 3rem;
+}
+
+.botonIndex {
+    text-align: center;
+}
+
+/*main tienda*/
+.mainTienda {
+    background-color: white;
+}
+
+.card {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card-img-top {
+    width: 405px;
+    height: 600px;
+}
+
+.botonTienda {
+    text-align: center;
+}
+
+.sectionTienda {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*main dormitorio y bano*/
+.dorAgregar {
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.dorCant {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/*main living comedor*/
+main {
+    background-color: map-get($map: $fondos, $key: fondoMainTienLivDor );
+}
+
+.livAgregar {
+    @extend .dorAgregar;
+}
+
+.livCant {
+    @extend .dorCant;
+    font-weight: lighter;
+}
+
+/*main acerca de*/
+.acerMain{
+    margin: 0 auto;
+}
+
+/*main contacto*/
+.flexContac {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}

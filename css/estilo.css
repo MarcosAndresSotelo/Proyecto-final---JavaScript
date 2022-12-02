@@ -1,0 +1,333 @@
+.navbar {
+  background-color: #eeeeef;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/*boton para registrar usuario nav*/
+.botonRegistro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  background-color: #eeeeef;
+}
+
+.registrarUsuario {
+  text-decoration: none;
+  margin-right: 30px;
+  padding: 5px;
+  font-size: 25px;
+  color: rgb(110, 106, 106);
+  background-color: #e1e4e5;
+  border-color: #e1e4e5;
+  border-radius: 5px;
+}
+
+.registrarUsuario:hover {
+  color: #464648
+}
+
+
+/*pagina para registrar usuario*/
+
+.bgRegistro {
+  background-color: #fff
+}
+
+.formRegistro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  background-color: white;
+  width: 400px;
+  border-radius: 8px;
+  padding: 20px 40px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+
+.titulo {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.formInput {
+  position: relative;
+  height: 45px;
+  width: 90%;
+  margin-bottom: 17px;
+}
+
+
+.input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #DADCE0;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 0 20px;
+  outline: none;
+  background: none;
+  z-index: 1;
+}
+
+::placeholder {
+  color: transparent;
+}
+
+.label {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 0 4px;
+  background-color: white;
+  color: #DADCE0;
+  font-size: 16px;
+  transition: 0.5s;
+  z-index: 0;
+}
+
+.enviarBoton {
+  display: block;
+  margin-left: auto;
+  padding: 15px 30px;
+  border: none;
+  background-color: rgb(87, 86, 87);
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.enviarBoton:hover {
+  background-color: #19181a;
+  transform: translateY(-2px);
+}
+
+.input:focus+.label {
+  top: -7px;
+  left: 3px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(81, 79, 81);
+}
+
+.error{
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  color: #B06AB3;
+  padding-top: 20px;
+}
+
+/* carrito */
+.imgProd {
+  width: 50%;
+  height: 50%;
+}
+
+.carritoFlex {
+  display: flex;
+}
+
+/* Dormitorio y baño en construccion */
+.paginaEnConstruccion{
+  font-size: 10rem;
+  text-align: center;
+  text-decoration: underline;
+  color: #19181a;
+
+  
+}
+
+/*main index*/
+.imagenIndex {
+  width: 99vw;
+  height: 85vh;
+  display: flex;
+  align-items: end;
+  background: url(../assets/img/ceramica.jpg);
+  background-size: cover;
+  background-position: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.textoIndex {
+  margin-bottom: 30px;
+  font-size: 4rem;
+}
+
+.textoIndexProd {
+  font-size: 3rem;
+}
+
+.botonIndex {
+  text-align: center;
+}
+
+/*main tienda*/
+.mainTienda {
+  background-color: white;
+}
+
+.card {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.card-img-top {
+  width: 405px;
+  height: 600px;
+}
+
+.botonTienda {
+  text-align: center;
+}
+
+.sectionTienda {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*main dormitorio y bano*/
+.dorAgregar,
+.livAgregar {
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+.dorCant,
+.livCant {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+/*main living comedor*/
+.livCant {
+  font-weight: lighter;
+}
+
+/*main acerca de*/
+.acerMain {
+  margin: 0 auto;
+}
+
+/*main contacto*/
+.flexContac {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+footer {
+  background-color: #d3d3d3;
+}
+
+.bi {
+  color: black;
+  margin: 10px;
+}
+
+.bi-instagram:hover {
+  color: #517fa4;
+}
+
+.bi-facebook:hover {
+  color: #3d5998;
+}
+
+.bi-twitter:hover {
+  color: #00aced;
+}
+
+.bi-whatsapp:hover {
+  color: #12867e;
+}
+
+.footerMt h1 {
+  margin-top: 41px;
+}
+
+/*vista mobile index*/
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  .textoIndex {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .textoIndexProd {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .btn {
+    font-size: 2rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/*vista tablet index*/
+@media screen and (min-width: 768px) and (max-width: 1260px) {
+  .mediaNav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .textoIndex {
+    text-align: center;
+  }
+
+  .textoIndexProd {
+    text-align: center;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/*vista mobile tienda*/
+@media screen and (min-width: 320px) and (max-width: 940px) {
+  .card {
+    margin: 10px;
+  }
+}
+
+/*vista tablet living comedor*/
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
